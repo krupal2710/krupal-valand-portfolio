@@ -69,10 +69,15 @@ const Home = () => {
               {/* Simulated shadow glow using gradient-1 */}
               <div className="absolute -inset-1 rounded-xl opacity-0 group-hover:opacity-100 transition duration-300 blur-md bg-gradient-1 z-0" />
 
-              {/* Actual button */}
-              <button className="relative w-50 font-primary text-center text-xl z-10 bg-[#6C5CE7] hover:bg-[#5a4ed1] text-white px-6 py-3 rounded-xl font-semibold flex items-center gap-2 transition">
-                Download CV <Download className="w-4 h-4" />
-              </button>
+              <a
+                href="https://drive.google.com/file/d/1WuWTOsPmT_xCkJCYR8tMCjQTIUZh32uy/view?usp=drive_link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="relative w-50 font-primary text-center text-xl z-10 bg-[#6C5CE7] hover:bg-[#5a4ed1] text-white px-6 py-3 rounded-xl font-semibold flex items-center gap-2 transition">
+                  Download CV <Download className="w-4 h-4" />
+                </button>
+              </a>
             </div>
 
             {/* Social Icons */}
